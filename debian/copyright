@@ -1,0 +1,53 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xf86-input-tslib
+Source: https://github.com/merge/xf86-input-tslib
+
+Debianized-By: Wen-Yen Chuang <caleb@calno.com>
+Debianized-Date: Tue, 29 Jan 2008 13:54:59 +0800.
+Source-Downloaded-From: http://www.pengutronix.de/software/ptxdist/temporary-src/
+Upstream-Author: Sascha Hauer <s.hauer@pengutronix.de>,
+                 Clement Chauplannaz, Thales e-Transactions <chauplac@gmail.com>,
+                 Michael Olbrich <m.olbrich@pengutronix.de>
+
+Files: src/*.c
+Copyright:  1999 Frederic Lepied, France. <Lepied@XFree86.org>
+            2006 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
+Licence: other-BSD
+    Permission to use, copy, modify, distribute, and sell this software and its
+    documentation for any purpose is  hereby granted without fee, provided that
+    the  above copyright   notice appear  in   all  copies and  that both  that
+    copyright  notice   and   this  permission   notice  appear  in  supporting
+    documentation, and that   the  name of  Frederic   Lepied not  be  used  in
+    advertising or publicity pertaining to distribution of the software without
+    specific,  written      prior  permission.     Frederic  Lepied   makes  no
+    representations about the suitability of this software for any purpose.  It
+    is provided "as is" without express or implied warranty.
+
+    FREDERIC  LEPIED DISCLAIMS ALL   WARRANTIES WITH REGARD  TO  THIS SOFTWARE,
+    INCLUDING ALL IMPLIED   WARRANTIES OF MERCHANTABILITY  AND   FITNESS, IN NO
+    EVENT  SHALL FREDERIC  LEPIED BE   LIABLE   FOR ANY  SPECIAL, INDIRECT   OR
+    CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+    DATA  OR PROFITS, WHETHER  IN  AN ACTION OF  CONTRACT,  NEGLIGENCE OR OTHER
+    TORTIOUS  ACTION, ARISING    OUT OF OR   IN  CONNECTION  WITH THE USE    OR
+    PERFORMANCE OF THIS SOFTWARE.
+
+Files: debian/*
+Copyright:  2008-2010 Wen-Yen Chuang <caleb@calno.com>
+Licence: GPL-2+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; version 2 dated June, 1991, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software 
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, 
+    MA 02110-1301, USA.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in '/usr/share/common-licenses/GPL-2'

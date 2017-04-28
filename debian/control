@@ -1,0 +1,29 @@
+Source: xf86-input-tslib
+Section: x11
+Priority: optional
+Maintainer: Martin Kepplinger <martink@posteo.de>
+Build-Depends: autotools-dev,
+ debhelper (>= 10),
+ xserver-xorg-dev (>= 2:1.9.4),
+ pkg-config,
+ libts-dev (>= 1.0-4),
+Standards-Version: 3.9.8
+Homepage: https://github.com/merge/xf86-input-tslib
+Vcs-Git: https://github.com/merge/xf86-input-tslib-debian
+Vcs-Browser: https://github.com/merge/xf86-input-tslib-debian
+
+Package: xserver-xorg-input-tslib
+Architecture: any
+Depends: ${misc:Depends},
+ ${shlibs:Depends},
+ ${xinpdriver:Depends}
+Provides: xf86-input-tslib,
+ ${xinpdriver:Provides}
+Replaces: xf86-input-tslib
+Conflicts: xf86-input-tslib
+Description: tslib touchscreen driver for X.Org/XFree86 server
+ This X.Org/XFree86 driver provides support for tslib. tslib accesses
+ touchscreen devices directly and allows one to apply various mathematical
+ filters to the input samples.
+ .
+ This package is built from the xf86-input-tslib driver module.

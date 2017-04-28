@@ -1,0 +1,3 @@
+version=3
+opts=pgpsigurlmangle=s/$/.asc/ \
+http://pengutronix.de/software/xf86-input-tslib/download/xf86-input-tslib-(.*)\.tar\.bz2
