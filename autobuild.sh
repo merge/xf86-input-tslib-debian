@@ -7,5 +7,5 @@ mkdir -p output/sources
 cp -a debian output/sources/
 cd output/sources
 uscan --force-download
-tar -xvf ../xf86-input-tslib-${VERSION}.tar.bz2 --strip-components=1
+tar -xvf ../xf86-input-tslib-${VERSION}.tar.xz --strip-components=1
 debuild
