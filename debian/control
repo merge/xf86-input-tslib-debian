@@ -14,11 +14,8 @@ Vcs-Browser: https://github.com/merge/xf86-input-tslib-debian
 
 Package: xserver-xorg-input-tslib
 Architecture: any
-Depends: ${misc:Depends},
- ${shlibs:Depends},
- ${xinpdriver:Depends}
-Provides: xf86-input-tslib,
- ${xinpdriver:Provides}
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${xinpdriver:Depends}
+Provides: xf86-input-tslib, ${xinpdriver:Provides}
 Replaces: xf86-input-tslib
 Conflicts: xf86-input-tslib
 Description: tslib touchscreen driver for X.Org/XFree86 server
