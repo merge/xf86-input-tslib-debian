@@ -1,8 +1,9 @@
 xf86-input-tslib (0.0.7-1) unstable; urgency=low
 
-  * upgrade to upstream 0.0.7 (Closes: #)
+  * upgrade to upstream 0.0.7 (Closes: #861455)
+  * rewrite and simplify the packaging code for up-to-date Debian build system
 
- -- Martin Kepplinger <martink@posteo.de>  Sat, 29 Apr 2017 00:07:58 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Sat, 29 Apr 2017 12:07:58 +0100
 
 xf86-input-tslib (0.0.6-7) unstable; urgency=low
 
