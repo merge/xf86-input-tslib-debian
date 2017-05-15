@@ -1,6 +1,6 @@
 #/bin/bash
 
-VERSION="0.0.7"
+VERSION="1.0.0"
 
 rm -rf output
 mkdir -p output/sources
