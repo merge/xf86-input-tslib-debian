@@ -7,7 +7,7 @@ Build-Depends: autotools-dev,
  xserver-xorg-dev (>= 2:1.9.4),
  pkg-config,
  libts-dev (>= 1.0-4),
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://github.com/merge/xf86-input-tslib
 Vcs-Git: https://github.com/merge/xf86-input-tslib-debian
 Vcs-Browser: https://github.com/merge/xf86-input-tslib-debian
