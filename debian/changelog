@@ -1,4 +1,10 @@
-xf86-input-tslib (1.0.0-1) unstable; urgency=medium
+xf86-input-tslib (1.1.0-1) unstable; urgency=low
+
+  * update to 1.1.0
+
+ -- Martin Kepplinger <martink@posteo.de>  Wed, 06 Sep 2017 15:57:34 +0100
+
+xf86-input-tslib (1.0.0-1) unstable; urgency=low
 
   * xf86-input-tslib now uses the X11 touch API, similar to xf86-input-libinput
     So depending on your setup, touch input behaviour may change.
